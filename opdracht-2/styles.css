@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:ital,wght@0,300;0,400;0,700;0,800;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*colors needed:  (oranje #DE6127, lichtgrijs #e8e8e8, donkergrijs #737373 en de kleuren voor de bolletjs, #faa0c7, #272729, #928471 en #c2c2b4)*/
+
 .product {
     /* "auto" aan de zijkanten zorgt ervoor dat het element in het midden komt te staan*/
     margin: 80px auto;
@@ -6,3 +18,59 @@
 }
 
 /* - Vul dit document aan met jouw eigen css! - */
+
+.product-image {
+    width: 100%;
+}
+
+.fav-icon {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    height: 16px;
+
+}
+
+.product-image-wrapper {
+    position: relative;
+}
+
+.new-sticker {
+    background-color:  #e8e8e8;
+    color: #DE6127;
+    font-weight: bold;
+    padding: 10px 30px;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 60px;
+    left: -70px;
+
+
+
+}
+
+.product-color-dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    /*Met deze property blijven ze op dezelfde regel*/
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.color-pink {
+    background-color: #faa0c7;
+}
+
+.color-black {
+    background-color: #272729;
+}
+
+.color-beige {
+    background-color: #928471;
+}
+
+.color-taupe {
+    background-color: #c2c2b4;
+}
